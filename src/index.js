@@ -7,6 +7,7 @@ app.set('port',PORT)
 //rute
 app.get('/',(req,res)=>{
     res.send('hola mundo');
+    //res.sendFile('');
 });
 
 //listening the server
