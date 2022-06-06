@@ -6,7 +6,7 @@ const PORT= process.env.PORT || 3000;
 app.set('port',PORT);
 
 //rute
-app.get('/',(req,res)=>{
+app.get(function(req,res){
    //res.send('hola mundo');
     res.sendFile(path.join(__dirname ,'htmlProyect/inicio.html'));
     //res.render('inicio');
