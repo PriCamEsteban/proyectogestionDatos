@@ -7,8 +7,8 @@ app.set('port',PORT);
 
 //rute
 app.get('/',(req,res)=>{
-   //res.send('hola mundo');
-    res.sendFile(path.join(__dirname ,'htmlProyect/inicio.html'));
+   res.send('hola mundo');
+    //res.sendFile(path.join(__dirname ,'htmlProyect/inicio.html'));
     //res.render('inicio');
 });
 
