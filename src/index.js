@@ -2,8 +2,9 @@ console.log("server works");
 const express = require ("express");
 const app = express();
 const path = require('path');
-//setting 
-app.set('port',3000);
+//setting
+const PORT=process.env.PORT || 3000 
+app.set('port',PORT);
 //middlewares
 
 
