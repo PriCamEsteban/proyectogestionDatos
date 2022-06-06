@@ -12,10 +12,10 @@ app.listen(PORT);
 
 //routes
 app.get('/', (req, res)=>{
-    //res.send('hola mundo');
+    res.send('hola mundo');
    // res.sendFile(path.join(__dirname,'/views/Site1/Inicio.html'));
-    res.sendFile(path.join(__dirname,'/views/Site1/proyecto.html'));
-    console.log(path.join(__dirname ,'views/paginaInicio.html'));
+    //res.sendFile(path.join(__dirname,'/views/Site1/proyecto.html'));
+   // console.log(path.join(__dirname ,'views/paginaInicio.html'));
 });
 //static files
 
