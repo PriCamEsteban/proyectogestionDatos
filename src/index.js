@@ -1,8 +1,8 @@
 const express = require('express');
 const app= express();
 //settings
-//const PORT= process.env.PORT
-app-set('port',3000)
+const PORT= process.env.PORT ||3000
+app.set('port',PORT)
 
 //rute
 app.get('/',(req,res)=>{
