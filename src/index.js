@@ -5,8 +5,8 @@ const path = require('path');
 //setting
 
 const PORT = process.env.PORT || 3000 ;
-//app.listen(PORT);
-app.set('port',PORT);
+app.listen(PORT);
+//app.set('port',PORT);
 //middlewares
 
 
